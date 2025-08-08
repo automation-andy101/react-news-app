@@ -2,7 +2,9 @@ import NewsApp from './components/NewsApp'
 
 const App = () => {
   return (
-    <NewsApp />
+    <div className='container' >
+      <NewsApp />
+    </div>
   )
 }
 
